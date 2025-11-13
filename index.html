@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCon 2025 Event Schedule</title>
+
+    <!-- Level 1: Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>TechCon 2025 Event Schedule</h1>
+            <!-- Level 3: Theme Toggle Button -->
+            <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                <!-- Icon will be handled by CSS -->
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Level 2: Filter Controls -->
+        <section id="filter-controls">
+            <h2>Filter Events</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="All">All Events</button>
+                <button class="filter-btn" data-filter="Keynote">Keynotes</button>
+                <button class="filter-btn" data-filter="Talk">Talks</button>
+                <button class="filter-btn" data-filter="Workshop">Workshops</button>
+                <button class="filter-btn" data-filter="Panel">Panels</button>
+                <button class="filter-btn" data-filter="Social">Social</button>
+            </div>
+        </section>
+
+        <section id="event-container" class="event-grid"></section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TechCon Events. All rights reserved. | Built for BMT Quiz 2</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
