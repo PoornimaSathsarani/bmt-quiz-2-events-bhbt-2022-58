@@ -8,35 +8,35 @@ document.addEventListener('DOMContentLoaded', () => {
             type: "Keynote",
             date: "2025-11-20T09:00:00",
             description: "Join industry visionary Dr. Evelyn Reed as she unveils the next decade of AI innovation.",
-            image: "images/keynote.jpg"
+            image:"c:\Users\BEST\OneDrive\Desktop\web application\images\keynote.jpeg"
         },
         {
             title: "Advanced JavaScript Workshop",
             type: "Workshop",
             date: "2025-11-20T10:30:00",
             description: "A 3-hour, hands-on deep-dive into asynchronous JavaScript, Promises, and modern ES6+ features.",
-            image: "images/workshop-js.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\workshop-js.jpeg"
         },
         {
             title: "Cybersecurity in the Cloud Era",
             type: "Talk",
             date: "2025-11-20T11:00:00",
             description: "Explore the evolving landscape of cloud security threats and proactive defense strategies.",
-            image: "images/cybersecurity.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\cybersecurity.jpeg"
         },
         {
             title: "Introduction to Quantum Computing",
             type: "Talk",
             date: "2025-11-20T14:00:00",
             description: "A beginner-friendly overview of quantum mechanics and its potential to revolutionize computing.",
-            image: "images/quantum.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\quantum.jpeg"
         },
         {
             title: "Networking Mixer & Welcome Reception",
             type: "Social",
             date: "2025-11-20T17:00:00",
             description: "Connect with fellow attendees, speakers, and sponsors over drinks and appetizers.",
-            image: "images/mixer.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\mixer.jpeg"
         },
 
         // --- Day 2: Nov 21, 2025 ---
@@ -45,35 +45,35 @@ document.addEventListener('DOMContentLoaded', () => {
             type: "Talk",
             date: "2025-11-21T09:30:00",
             description: "A critical discussion on the societal impact and ethical responsibilities in ML development.",
-            image: "images/ethics.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\sethic.jpeg"
         },
         {
             title: "Building Scalable Web Apps with Microservices",
             type: "Talk",
             date: "2025-11-21T10:30:00",
             description: "Learn the principles of microservices from lead engineers at a top tech company.",
-            image: "images/scalable.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\scalable.jpeg"
         },
         {
             title: "Mastering React Performance",
             type: "Workshop",
             date: "2025-11-21T13:00:00",
             description: "Optimize your React applications by learning memoization, code splitting, and bundle analysis.",
-            image: "images/react.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\react.jpeg"
         },
         {
             title: "The Psychology of User Experience (UX)",
             type: "Talk",
             date: "2025-11-21T14:00:00",
             description: "Understand the cognitive biases and psychological principles that drive effective UX design.",
-            image: "images/psychology-ux.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\psychology-ux.jpeg"
         },
         {
             title: "Panel: The Future of Remote Work in Tech",
             type: "Panel",
             date: "2025-11-21T16:00:00",
             description: "Industry leaders discuss the challenges, tools, and culture of building successful remote-first teams.",
-            image: "images/panel-remote.jpg"
+            image: "c:\Users\BEST\OneDrive\Desktop\web application\images\panel-remote.jpeg"
         },
         // ... (Add the rest of the events from the prompt here)
     ];
